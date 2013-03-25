@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "cz.mondis.hello-world"
+        id        = "cz.mondis.helloworld"
         version   = "1.0.0">
 
     <name>Mondis first mobile app</name>
@@ -47,7 +47,9 @@
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
     <!-- changed by blcha -->
-    <preference name="load-url-timeout"    value="50000" />
+    <!-- 
+	<preference name="load-url-timeout"    value="50000" />
+    -->
 
     <!-- Plugins can also be added here. -->
     <!--
